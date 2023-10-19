@@ -3,14 +3,14 @@ import App from "./pages/App";
 import ProductsPage from "./pages/Products";
 
 const router = createBrowserRouter([
-    {
-        path: '/',
-        element: <App />
-    },
-    {
-        path: '/products',
-        element: <ProductsPage />,
-    }
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/products",
+    element: <ProductsPage />,
+  },
 ]);
 
 export default router;

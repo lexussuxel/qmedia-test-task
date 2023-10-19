@@ -1,69 +1,70 @@
-.wrapper{
-    display: flex;
-    flex-direction: column;
-    width: calc((100% - 34px * 4) / 5);
-    row-gap: 18px;
-    cursor: pointer;
-    position: relative;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: calc((100% - 34px * 4) / 5);
+  row-gap: 18px;
+  cursor: pointer;
+  position: relative;
 }
 
-.image_wrapper{
-    border-radius: 6.75px;
-    border: 1px solid #E9E9E9;
-    position: relative;
-    max-width: -webkit-fill-available;
-    aspect-ratio: 1;
-    object-fit: contain;
+.image_wrapper {
+  border-radius: 6.75px;
+  border: 1px solid #e9e9e9;
+  position: relative;
+  max-width: -webkit-fill-available;
+  aspect-ratio: 1;
+  object-fit: contain;
 }
 
-.wrapper:hover .image_wrapper{
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+.wrapper:hover .image_wrapper {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
-.heart{
-    right: 15px;
-    top:15px;
-    position: absolute;
+.heart {
+  right: 15px;
+  top: 15px;
+  position: absolute;
 }
 
-.desc{
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    font-size: 18px;
-    font-weight: 500;
+.desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .prev_price {
-    color: #B8B8B8;
-    font-size: 20px;
-    font-weight: 600;
-    text-decoration: line-through;
-    margin-right: 10px;
+  color: #b8b8b8;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: line-through;
+  margin-right: 10px;
 }
 
 .price {
-    font-size: 27px;
-    font-weight: 600;
+  font-size: 27px;
+  font-weight: 600;
 }
 
-.price_text{
-    font-size: 20px;
-    font-weight: 600; 
+.price_text {
+  font-size: 20px;
+  font-weight: 600;
 }
 
-@media(max-width: 640px){
-    .wrapper{
-        width: calc((100% - 14px)/2);
-    }
-    .prev_price{
-        font-size: 16px;
-    }
-    .price{
-        font-size: 23px;
-    }
-    .price_text{
-        font-size: 16px;
-    }
+@media (max-width: 640px) {
+  .wrapper {
+    width: calc((100% - 14px) / 2);
+  }
+  .prev_price {
+    font-size: 16px;
+  }
+  .price {
+    font-size: 23px;
+  }
+  .price_text {
+    font-size: 16px;
+  }
 }

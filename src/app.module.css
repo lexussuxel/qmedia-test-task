@@ -1,0 +1,14 @@
+.app_wrapper {
+    padding: 50px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    row-gap: 34px;
+}
+
+@media(max-width: 640px){
+    .app_wrapper{
+        padding:20px;
+        row-gap: 14px;
+    }
+}
